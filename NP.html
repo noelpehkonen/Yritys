@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sivusto vielä kehityksessä</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg: #2E5984;
+      --fg: #ffffff;
+      --max-width: 1000px;
+    }
+    html,body{
+      height:100%;
+      margin:0;
+      font-family: 'Rubik Mono One', monospace;
+      background: var(--bg);
+      color: var(--fg);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+    .wrap{
+      min-height:100%;
+      display:grid;
+      place-items:center;
+      padding:2rem;
+      box-sizing:border-box;
+    }
+    .card{
+      text-align:center;
+      max-width:var(--max-width);
+      width:100%;
+    }
+    h1{
+      margin:0 0 0.5rem 0;
+      font-weight:300;
+      font-size: clamp(2rem, 6vw, 4rem);
+      line-height:1.05;
+      letter-spacing:0.2px;
+    }
+    p{
+      margin:0;
+      opacity:0.92;
+      font-size: clamp(1rem, 2.6vw, 1.25rem);
+      font-weight:400;
+    }
+    .subtle{
+      margin-top:1rem;
+      opacity:0.85;
+      font-weight:600;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>Sivusto vielä kehityksessä</h1>
+    </div>
+  </div>
+</body>
+</html>
